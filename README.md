@@ -1,2 +1,2 @@
 # TestPushBot
-This is the bot wich start autotests and send informations about run to ICQ
+This is the bot which start autotests and send information about run to ICQ

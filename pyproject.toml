@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "icq bot"
+version = "0.1.0"
+description = "Bot for starting autotests and send run's results to ICQ chats"
+authors = ["iluckycat <andriei.voronin.2000@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+mailru-im-bot = "^0.0.21"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
