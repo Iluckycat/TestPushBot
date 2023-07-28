@@ -22,7 +22,7 @@ class TestMockServer:
         result = mockserver.Get500Code()
         assert result.status_code == 200
 
-    @pytest.mark.skip("XFAILED")
+    #@pytest.mark.skip("XFAILED")
     def test_200_failed(self):
         result = mockserver.Get500Code()
         assert result.status_code == 200
