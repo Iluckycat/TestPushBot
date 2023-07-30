@@ -281,23 +281,6 @@ pytest = ">=7.0.0"
 test = ["black (>=22.1.0)", "flake8 (>=4.0.1)", "pre-commit (>=2.17.0)", "tox (>=3.24.5)"]
 
 [[package]]
-name = "pytest-reportlog"
-version = "0.4.0"
-description = "Replacement for the --resultlog option, focused in simplicity and extensibility"
-optional = false
-python-versions = ">=3.7"
-files = [
-    {file = "pytest-reportlog-0.4.0.tar.gz", hash = "sha256:c9f2079504ee51f776d3118dcf5e4730f163d3dcf26ebc8f600c1fa307bf638c"},
-    {file = "pytest_reportlog-0.4.0-py3-none-any.whl", hash = "sha256:5db4d00586546d8c6b95c66466629f1e913440c36d97795a673d2e19c5cedd5c"},
-]
-
-[package.dependencies]
-pytest = "*"
-
-[package.extras]
-dev = ["pre-commit", "tox"]
-
-[[package]]
 name = "python-baseconv"
 version = "1.2.2"
 description = "Convert numbers from base 10 integers to base X strings and back again."
@@ -327,6 +310,17 @@ urllib3 = ">=1.21.1,<1.27"
 [package.extras]
 socks = ["PySocks (>=1.5.6,!=1.5.7)", "win-inet-pton"]
 use-chardet-on-py3 = ["chardet (>=3.0.2,<5)"]
+
+[[package]]
+name = "schedule"
+version = "1.2.0"
+description = "Job scheduling for humans."
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "schedule-1.2.0-py2.py3-none-any.whl", hash = "sha256:415908febaba0bc9a7c727a32efb407d646fe994367ef9157d123aabbe539ea8"},
+    {file = "schedule-1.2.0.tar.gz", hash = "sha256:b4ad697aafba7184c9eb6a1e2ebc41f781547242acde8ceae9a0a25b04c0922d"},
+]
 
 [[package]]
 name = "six"
@@ -369,4 +363,4 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "0445f33276d5d689e7ee5f8d94a257ae38783aaf85670d8129e6271b7304e98a"
+content-hash = "d4a6c2997a0d1c032083a6d4bb3ddccf1b2dd121d551345e3acc5fdad8965eaa"
